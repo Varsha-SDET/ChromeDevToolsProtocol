@@ -18,6 +18,7 @@ public class BasicAuthenticationTest {
     ChromeDriver driver;
     @BeforeClass
     public void driverSetup() {
+        //driver setup
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
