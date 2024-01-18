@@ -40,7 +40,7 @@ public class BlockNetworkRequestTest {
         driver.findElement(By.cssSelector(".btn.btn-lg.btn-success")).click();
         driver.findElement(By.linkText("Selenium")).click();
         driver.findElement(By.cssSelector(".add-to-cart")).click();
-        //to see how web page looks without css and images files
+        //to see how web page looks without css and image files
         Thread.sleep(3000);
         System.out.println(driver.findElement(By.cssSelector("div p.product-description")).getText());
         long endTime = System.currentTimeMillis();
